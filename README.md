@@ -1,25 +1,26 @@
 # PlugToPlace 
 **Indoor Multimedia Geolocation from Electrical Sockets for Digital Investigation**
-# Introduction
-We present a three-tiered Computer Vision framework for automated  detection of electrical sockets that as consistent indoor markers for geolocation, since plug socket types are standardised by country or region. The three-stage deep learning pipeline detects plug sockets (YOLOv11, mAP@0.5 = 0.843), classifies them into one of 12 plug socket types (Xception, accuracy = 0.912), and maps the detected socket types to countries (accuracy = 0.96  at >90 % threshold confidence). To address data scarcity, two dedicated datasets were created: socket detection dataset of 2328 annotated images expanded to 40742 through augmentation, and a classification dataset of 3187 images across 12 plug socket classes. The pipeline was evaluated on the Hotels-50K dataset, focusing on the TraffickCam subset of crowd-sourced hotel images, which capture real-world conditions such as poor lighting and amateur angles. This dataset provides a more realistic evaluation than using professional, well-lit, often wide-angle images from travel websites. This framework demonstrates a practical step toward real-world digital forensic applications. 
+
+# Abstract
+Computer vision is a rapidly evolving field, giving rise to powerful new tools and techniques in digital forensic investigation, and shows great promise for novel digital forensic applications. One such application, indoor multimedia geolocation, has the potential to become a crucial aid for law enforcement in the fight against human trafficking, child exploitation, and other serious crimes. While outdoor multimedia geolocation has been widely explored, its indoor counterpart remains underdeveloped due to challenges such as similar room layouts, frequent renovations, visual ambiguity, indoor lighting variability, unreliable GPS signals, and limited datasets in sensitive domains. This repository provides the Google Colab training notebooks and the trained model weights for each of the steps of proposed framework. 
+
+# Datasets
+To address data scarcity, two dedicated datasets were created: 
+1. Socket Detection: DatasetA – consisting of 2,328 annotated images, expanded to DatasetB –  4,074 through augmentation.
+2. Socket Type Classification: It contains 3,187 images across 12 different socket type classes.
+Both datasets can be used to train deep learning models. The datasets for this project are available via [Roboflow link 1.](https://app.roboflow.com/objsocket/plugtoplace_socketdetection_db/models), [Roboflow link 2.](https://app.roboflow.com/objsocket/12plugsockettype/1). Please cite the dataset if you use it in your work. 
+3. Geolocation Inference: The pipeline was evaluated on the Hotels-50K dataset (TraffickCam) subset of crowd-sourced hotel images, which capture real-world conditions such as poor lighting and amateur angles. This dataset provides a more realistic evaluation than using professional, well-lit, often wide-angle images from travel websites. The dataset can be downloaded from the [Hotels-50K Github Repo](https://github.com/GWUvision/Hotels-50K).  
+
+# Methodology
+Our proposed methodology is a three-tiered computer vision framework (see Figure). It enables the automated detection of electrical sockets. These sockets serve as consistent indoor markers for geolocation, as plug types are standardized by country or region. In Stage 1, we conducted a comparative analysis of various YOLO versions YOLOv11 using K-fold cross-validation achieved the highest performance with an mAP@0.5 of 0.843.
+Once a socket is detected, the cropped Region of Interest (ROI) is passed to Stage 2 for classification. We evaluated five state-of-the-art CNN architectures: VGG16, InceptionV3, Xception, ResNet50, and ResNet101. Among these, Xception performed best, classifying sockets into one of 12 types with an accuracy of 0.912. Finally, Stage 3 performs geolocation inference by mapping the identified socket types to specific countries, achieving 0.96 accuracy at a confidence threshold of >90%. The pipeline was validated using the TraffickCam subset of the Hotels-50K dataset, demonstrating a practical application for digital forensics. 
 
 ![Alt ](/Fig/3_stage_updated2.png)
 
-# Abstract
+## Result
+A total of 44,630 TraffickCam images were processed through the algorithmic pipeline. In the first stage, YOLO detected 3,759 potential sockets. To enhance detection accuracy and eliminate false positives, a second-stage classifier was employed to identify and remove noise. Specifically, instances where non-socket objects (e.g., switchboards) were incorrectly detected as sockets in the first stage were classified as noise. This step identified 1,393 noisy detections, leaving 2,366 valid sockets. At a threshold above 70\%, 1,595 predictions were correct, and 146 were incorrect, resulting in an accuracy of 91.61\%. Increasing the threshold above 80\% reduced the number of correct detections to 1,421, while incorrect detections decreased to 95, yielding an improved accuracy of 93.73\%. At the highest threshold of above 90\%, correct detections further decreased to 1,167, with only 45 incorrect predictions, resulting in the highest accuracy of 96.29\%.
 
-Computer vision is a rapidly evolving field, giving rise to powerful new tools and techniques in digital forensic investigation, and shows great promise for novel digital forensic applications. One such application, indoor multimedia geolocation, has the potential to become a crucial aid for law enforcement in the fight against human trafficking, child exploitation, and other serious crimes. While outdoor multimedia geolocation has been widely explored, its indoor counterpart remains underdeveloped due to challenges such as similar room layouts, frequent renovations, visual ambiguity, indoor lighting variability, unreliable GPS signals, and limited datasets in sensitive domains.
-
-# Trained Models and Datasets
-
-The dataset used in this project can be downloaded from the this GitHub repository or can be obtained from this Roboflow link, and we kindly request that you cite it when using it.
-
-There are two datasets available, which can be utilized for training deep learning models for various tasks:
-
-- Plug Socket Detection: A comparative analysis of different YOLO versions has been conducted. The Google Colab training file, dataset, YOLOv inference code, and trained model weights are all included in the '1. Socket Detection' folder. 
-- Plug Socket Type Classification:Once the socket is detected in Step 1, the cropped ROI is passed for socket type classification. Five state-of-the-art CNN architectures were implemented: VGG16, InceptionV3, Xception, ResNet50, and ResNet101. A comparative analysis of these five CNNs was performed; for more details, please refer to the research paper. The Google Colab training code, dataset used for training, and model weights can be found in the '2. Socket Type Classification' folder.
-- Geolocation Inference: The test dataset for this experiment was derived from the Hotels-50K TraffickCam dataset, available from its official GitHub repository.
-
-
+ 
 ## Requirements
 - Python > 3.7
 - torch==2.6.0
@@ -36,6 +37,8 @@ There are two datasets available, which can be utilized for training deep learni
 - urllib3==2.2.3
 - certifi==2024.8.30
 
+
+Note: For comprehensive details on the methodology and experimental results, please refer to our research paper. For inquiries, feel free to contact the authors.
 
 # Authors 
 Kanwal Aftab, Graham Adams, Mark Scanlon
