@@ -1,0 +1,561 @@
+plug type,country
+A,American Samoa
+A,Anguilla
+A,Antigua and Barbuda
+A,Aruba
+A,Barbados
+A,Belize
+A,Bermuda
+A,Bolivia
+A,Bonaire
+A,British Virgin Islands
+A,Cambodia
+A,Canada
+A,Cayman Islands
+A,Colombia
+A,Costa Rica
+A,Cuba
+A,Curaçao
+A,Dominican Republic
+A,Ecuador
+A,El Salvador
+A,Guam
+A,Guatemala
+A,Guyana
+A,Haiti
+A,Honduras
+A,Jamaica
+A,Japan
+A,Jordan
+A,Laos
+A,Lebanon
+A,Liberia
+A,Maldives
+A,Marshall Islands
+A,Mexico
+A,Mongolia
+A,Montserrat
+A,Myanmar
+A,Nicaragua
+A,Palau
+A,Panama
+A,Paraguay
+A,Peru
+A,Philippines
+A,Puerto Rico
+A,Rwanda
+A,Saba
+A,Saint Vincent and the Grenadines
+A,Sint Eustatius
+A,Sint Maarten
+A,Somalia
+A,Somaliland
+A,South Sudan
+A,Sudan
+A,Suriname
+A,Taiwan
+A,Thailand
+A,Bahamas
+A,Trinidad Tobago
+A,Turks and Caicos Islands
+A,United States of America
+A,United States Virgin Islands
+A,Venezuela
+A,Vietnam
+A,Virgin Islands (British)
+A,Virgin Islands (USA)
+A,Yemen
+B,American Samoa
+B,Anguilla
+B,Antigua and Barbuda
+B,Aruba
+B,Barbados
+B,Belize
+B,Bermuda
+B,British Virgin Islands
+B,Canada
+B,Cayman Islands
+B,Colombia
+B,Costa Rica
+B,Cuba
+B,Curaçao
+B,Dominican Republic
+B,Ecuador
+B,El Salvador
+B,Guam
+B,Guatemala
+B,Guyana
+B,Haiti
+B,Honduras
+B,Jamaica
+B,Japan
+B,Laos
+B,Liberia
+B,Marshall Islands
+B,Mexico
+B,Montserrat
+B,Nicaragua
+B,Palau
+B,Panama
+B,Peru
+B,Philippines
+B,Puerto Rico
+B,Saba
+B,Saint Vincent and the Grenadines
+B,Sint Eustatius
+B,Sint Maarten
+B,South Sudan
+B,Sudan
+B,Suriname
+B,Taiwan
+B,Thailand
+B,Bahamas
+B,Trinidad Tobago
+B,Turks and Caicos Islands
+B,United States of America
+B,United States Virgin Islands
+B,Venezuela
+B,Vietnam
+B,Virgin Islands (British)
+B,Virgin Islands (USA)
+C,Afghanistan
+C,Albania
+C,Algeria
+C,Andorra
+C,Angola
+C,Armenia
+C,Austria
+C,Azerbaijan
+C,Azores
+C,Balearic Islands
+C,Bangladesh
+C,Belarus
+C,Belgium
+C,Benin
+C,Bhutan
+C,Bolivia
+C,Bonaire
+C,Bosnia Herzegovina
+C,Brazil
+C,Bulgaria
+C,Burkina Faso
+C,Burundi
+C,Cambodia
+C,Cameroon
+C,Canary Islands
+C,Cape Verde
+C,Central African Republic
+C,Chad
+C,Chile
+C,China
+C,Comoros
+C,Congo-Brazzaville
+C,Congo-Kinshasa
+C,Costa Rica
+C,Côte d’Ivoire
+C,Croatia
+C,Cuba
+C,Czech Republic
+C,Denmark
+C,Djibouti
+C,East Timor
+C,Timor-Leste
+C,Egypt
+C,Equatorial Guinea
+C,Eritrea
+C,Estonia
+C,Eswatini
+C,Ethiopia
+C,Faroe Islands
+C,Finland
+C,France
+C,French Guiana
+C,French Polynesia
+C,Tahiti
+C,Gabon
+C,Gaza Strip
+C,Georgia
+C,Germany
+C,Greece
+C,Greenland
+C,Guadeloupe
+C,Guernsey
+C,Guinea-Bissau
+C,Guinea
+C,Hungary
+C,Iceland
+C,India
+C,Indonesia
+C,Iran
+C,Iraq
+C,Isle of Man
+C,Israel
+C,Italy
+C,Jersey
+C,Jordan
+C,Kazakhstan
+C,Korea
+C,North
+C,Korea
+C,South
+C,Kosovo
+C,Kyrgyzstan
+C,Laos
+C,Latvia
+C,Lebanon
+C,Liberia
+C,Libya
+C,Liechtenstein
+C,Lithuania
+C,Luxembourg
+C,Macedonia
+C,North
+C,Madagascar
+C,Madeira
+C,Maldives
+C,Mali
+C,Martinique
+C,Mauritania
+C,Mauritius
+C,Mayotte
+C,Moldova
+C,Monaco
+C,Mongolia
+C,Montenegro
+C,Morocco
+C,Mozambique
+C,Myanmar
+C,Namibia
+C,Nepal
+C,Holland
+C,Netherlands
+C,New Caledonia
+C,Niger
+C,North Korea
+C,North Macedonia
+C,Norway
+C,Pakistan
+C,Palestine
+C,Paraguay
+C,Peru
+C,Philippines
+C,Poland
+C,Portugal
+C,Réunion
+C,Romania
+C,Russia
+C,Rwanda
+C,Saint Barthélemy
+C,Saint Martin
+C,Saint Pierre and Miquelon
+C,San Marino
+C,São Tomé and Príncipe
+C,Senegal
+C,Serbia
+C,Sint Eustatius
+C,Slovakia
+C,Slovenia
+C,Somalia
+C,Somaliland
+C,South Africa
+C,South Korea
+C,South Sudan
+C,Spain
+C,Sudan
+C,Suriname
+C,Swaziland
+C,Sweden
+C,Switzerland
+C,Syria
+C,Tajikistan
+C,Thailand
+C,Togo
+C,Tunisia
+C,Turkey
+C,Turkmenistan
+C,Ukraine
+C,Uruguay
+C,Uzbekistan
+C,Vatican City
+C,Vietnam
+C,Wallis and Futuna
+C,West Bank
+C,Western Sahara
+D,Bangladesh
+D,Bhutan
+D,Botswana
+D,Dominica
+D,Ghana
+D,Guyana
+D,India
+D,Maldives
+D,Myanmar
+D,Nepal
+D,Nigeria
+D,Pakistan
+D,Saint Kitts and Nevis
+D,Sierra Leone
+D,South Sudan
+D,Sri Lanka
+D,Sudan
+D,Yemen
+E,Belgium
+E,Benin
+E,Burkina Faso
+E,Burundi
+E,Cameroon
+E,Central African Republic
+E,Chad
+E,Comoros
+E,Congo-Brazzaville
+E,Congo-Kinshasa
+E,Côte d’Ivoire
+E,Czech Republic
+E,Djibouti
+E,East Timor
+E,Timor-Leste
+E,Equatorial Guinea
+E,France
+E,French Guiana
+E,French Polynesia
+E,Tahiti
+E,Gabon
+E,Guadeloupe
+E,Laos
+E,Madagascar
+E,Mali
+E,Martinique
+E,Mauritania
+E,Mayotte
+E,Monaco
+E,Morocco
+E,Myanmar
+E,New Caledonia
+E,Niger
+E,Poland
+E,Réunion
+E,Saint Barthélemy
+E,Saint Martin
+E,Saint Pierre and Miquelon
+E,Senegal
+E,Slovakia
+E,Syria
+E,Togo
+E,Tunisia
+E,Wallis and Futuna
+E,Western Sahara
+F,Afghanistan
+F,Albania
+F,Algeria
+F,Andorra
+F,Angola
+F,Armenia
+F,Aruba
+F,Austria
+F,Azerbaijan
+F,Azores
+F,Balearic Islands
+F,Belarus
+F,Bosnia Herzegovina
+F,Bulgaria
+F,Chad
+F,Cape Verde
+F,Croatia
+F,Denmark
+F,East Timor
+F,Timor-Leste
+F,Egypt
+F,Estonia
+F,Ethiopia
+F,Faroe Islands
+F,Finland
+F,Georgia
+F,Germany
+F,Greece
+F,Greenland
+F,Guinea-Bissau
+F,Guinea
+F,Hungary
+F,Iceland
+F,Indonesia
+F,Iran
+F,Iraq
+F,Italy
+F,Jordan
+F,Kazakhstan
+F,Korea (North)
+F,Korea (South)
+F,Kyrgyzstan
+F,Laos
+F,Latvia
+F,Lebanon
+F,Liberia
+F,Libya
+F,Lithuania
+F,Luxembourg
+F,Macedonia (North)
+F,Madeira
+F,Moldova
+F,Mongolia
+F,Montenegro
+F,Mozambique
+F,Myanmar
+F,Netherlands
+F,Norway
+F,Portugal
+F,Romania
+F,Russia
+F,Rwanda
+F,San Marino
+F,São Tomé and Príncipe
+F,Serbia
+F,Sint Eustatius
+F,Slovenia
+F,Spain
+F,Suriname
+F,Sweden
+F,Syria
+F,Tajikistan
+F,Thailand
+F,Turkey
+F,Turkmenistan
+F,Ukraine
+F,Uruguay
+F,Uzbekistan
+F,Vatican City
+F,Vietnam
+G,Abu Dhabi
+G,Bahrain
+G,Bangladesh
+G,Botswana
+G,Brunei
+G,Cambodia
+G,Cyprus
+G,Dominica
+G,Dubai
+G,England
+G,Ethiopia
+G,Falkland Islands
+G,Gambia
+G,Gibraltar
+G,Great Britain
+G,Grenada
+G,Guernsey
+G,Ghana
+G,Guyana
+G,Hong Kong
+G,Iraq
+G,Ireland
+G,Isle of Man
+G,Jersey
+G,Jordan
+G,Kenya
+G,Kuwait
+G,Macau
+G,Malawi
+G,Malaysia
+G,Maldives
+G,Malta
+G,Mauritius
+G,Myanmar
+G,Nigeria
+G,North Cyprus
+G,Northern Ireland
+G,Oman
+G,Qatar
+G,Rwanda
+G,Saint Helena
+G,Saint Kitts and Nevis
+G,Saint Lucia
+G,Saint Vincent and the Grenadines
+G,Saudi Arabia
+G,Scotland
+G,Seychelles
+G,Sierra Leone
+G,Singapore
+G,Somalia
+G,Somaliland
+G,South Sudan
+G,Sri Lanka
+G,Sudan
+G,Tanzania
+G,Uganda
+G,United Arab Emirates
+G,United Kingdom
+G,Wales
+G,Yemen
+G,Zambia
+G,Zimbabwe
+H,Gaza Strip
+H,Israel
+H,Palestine
+H,West Bank
+I,Argentina
+I,American Samoa
+I,Australia
+I,China
+I,Christmas Island
+I,Cocos (Keeling) Islands
+I,Cook Islands
+I,East Timor
+I,Timor-Leste
+I,Fiji
+I,Kiribati
+I,Myanmar
+I,Nauru
+I,New Zealand
+I,Niue
+I,Norfolk Island
+I,Papua New Guinea
+I,Pitcairn Islands
+I,Samoa
+I,Solomon Islands
+I,Tajikistan
+I,Tonga
+I,Tuvalu
+I,Uruguay
+I,Uzbekistan
+I,Vanuatu
+J,Switzerland
+J,Liechtenstein
+J,Jordan
+J,Madagascar
+J,Maldives
+J,Rwanda
+K,Denmark
+K,Faroe Islands
+K,Greenland
+K,Bangladesh
+K,Guinea
+K,Madagascar
+K,Maldives
+K,Nepal
+K,Saint Vincent and the Grenadines
+K,Senegal
+L,Chile
+L,Cuba
+L,Eritrea
+L,Italy
+L,Libya
+L,Maldives
+L,Nepal
+L,San Marino
+L,Syria
+L,Uruguay
+L,Vatican City
+M,Bangladesh
+M,Bhutan
+M,Eswatini
+M,India
+M,Lesotho
+M,Mozambique
+M,Myanmar
+M,Namibia
+M,Nepal
+M,South Africa
+N,Brazil
+N,Eswatini
+N,Mozambique
+N,Namibia
+N,South Africa
+O,Thailand 
